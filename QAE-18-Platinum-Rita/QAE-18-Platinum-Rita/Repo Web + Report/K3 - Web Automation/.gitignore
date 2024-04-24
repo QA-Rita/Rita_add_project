@@ -1,0 +1,20 @@
+.gradle
+
+bin
+
+Reports
+
+Libs
+
+output
+
+!output/.gitkeep
+build
+
+.classpath
+
+.project
+
+.prj
+
+K3 - Web Automation.prj
