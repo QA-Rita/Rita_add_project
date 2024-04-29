@@ -11,6 +11,6 @@ Feature: Authorization
 
     @positive
     Scenario: TCLOG03-User want to logout
-        Given user already login
-        When  user select three lines icon at home page
+        Given user already to login
+        When  user select three lines icon at product page
         Then  user successfully logout
