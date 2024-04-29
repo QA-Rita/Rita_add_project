@@ -1,6 +1,6 @@
 Feature: Update Information
 
-    Scenario Outline: <case_id>-
+    Scenario Outline: <case_id>-User can update information before continue checkout an order
         Given user already add an order to cart
         When  user input <fields> with <value>
         Then  user will <get> update the information
