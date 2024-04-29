@@ -1,7 +1,7 @@
 Feature: Order
 
     Scenario Outline: <case_id>-User can view the number notification on the cart icon
-        Given user user already to login
+        Given user already to login
         When  user select <action> button on product at product page
         Then  user successfully get <result> on cart icon
         Examples:
@@ -11,7 +11,7 @@ Feature: Order
 
     Scenario: <case_id>-User can do <options> an order at detail product page
         Given user already to login
-        When  user select <options> an order at <pages>
+        When  user select <options> button an order at <pages>
         Then  user successfully do <options> an order
         Examples:
             | case_id | options     | pages               |
