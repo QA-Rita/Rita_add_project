@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Full Web Automation Test Suite,Chrome 122.0.0.0,,,2024-03-25 21:59:39,2024-03-25 22:07:48,8m - 8.943s,PASSED
+,,,,,,,
+Test Cases/Cucumber,Chrome 122.0.0.0,,,2024-03-25 21:59:40,2024-03-25 22:07:48,8m - 8.671s,PASSED
+Start listener action : beforeTestCase,Chrome 122.0.0.0,,,2024-03-25 21:59:40,2024-03-25 21:59:40,0.075s,ERROR
+runWithCucumberRunner(Runner),Chrome 122.0.0.0,,,2024-03-25 21:59:40,2024-03-25 22:07:48,8m - 8.217s,PASSED

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="83.172" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="83.172" skipped="0" timestamp="2024-04-08 00:29:40" hostname="mhani - MSI" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value="Xiaomi 23049PCD8G (Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mhani\\Katalon Studio\\K3 - Android Automation\\Reports\\20240408_002932\\New Test Suite\\20240408_002932"/>
+         <property name="logFiles" value="C:\\Users\\mhani\\Katalon Studio\\K3 - Android Automation\\Reports\\20240408_002932\\New Test Suite\\20240408_002932\\appium.log, C:\\Users\\mhani\\Katalon Studio\\K3 - Android Automation\\Reports\\20240408_002932\\New Test Suite\\20240408_002932\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mhani - MSI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="23049PCD8G"/>
+         <property name="hostAddress" value="192.168.32.1"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="2c0149dd"/>
+         <property name="deviceName" value="Xiaomi 23049PCD8G (Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Cucumber" time="82.963" classname="Test Cases/Cucumber" status="PASSED">
+         <system-out><![CDATA[2024-04-08 00:29:40 - [TEST_CASE][PASSED] - Test Cases/Cucumber: Test Cases/Cucumber
+
+2024-04-08 00:29:40 - [TEST_STEP][ERROR] - Start listener action : beforeTestCase: groovy.lang.MissingPropertyException: No such property: CucumberGlueGen for class: NewTestListener
+	at NewTestListener.beforeTestCase(NewTestListener.groovy:31)
+	at NewTestListener.invokeMethod(NewTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1712510972942.run(TempTestSuite1712510972942.groovy:36)
+
+
+2024-04-08 00:29:40 - [TEST_STEP][PASSED] - GLUE = ["stepDefinition"]: null
+
+2024-04-08 00:29:40 - [TEST_STEP][ERROR] - CucumberGlueGen.addDefaultPackages(): groovy.lang.MissingPropertyException: No such property: CucumberGlueGen for class: NewTestListener
+	at NewTestListener.beforeTestCase(NewTestListener.groovy:31)
+	at NewTestListener.invokeMethod(NewTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1712510972942.run(TempTestSuite1712510972942.groovy:36)
+
+
+2024-04-08 00:29:41 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: CucumberGlueGen for class: NewTestListener
+	at NewTestListener.beforeTestCase(NewTestListener.groovy:31)
+	at NewTestListener.invokeMethod(NewTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1712510972942.run(TempTestSuite1712510972942.groovy:36)
+
+
+2024-04-08 00:29:41 - [TEST_STEP][PASSED] - runWithCucumberRunner(Runner): Run with 'Runner' was passed
+
+2024-04-08 00:29:41 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2024-04-08 00:29:41 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2024-04-08 00:29:41 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2024-04-08 00:29:41 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-04-08 00:29:43 - [MESSAGE][INFO] - Appium server started on port 62,970
+
+2024-04-08 00:29:58 - [MESSAGE][PASSED] - Started app at: 'C:\Users\mhani\Katalon Studio\K3 - Android Automation\Apk\app-debug.apk'
+
+2024-04-08 00:29:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:01 - [MESSAGE][PASSED] - Element 'Object Repository/Account/icon_account' is present
+
+2024-04-08 00:30:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:02 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_add_product' is present
+
+2024-04-08 00:30:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:02 - [MESSAGE][PASSED] - Element 'Object Repository/Account/icon_account' is visible
+
+2024-04-08 00:30:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:02 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_add_product' is visible
+
+2024-04-08 00:30:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Account/icon_account'
+
+2024-04-08 00:30:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:04 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/account_login_button' is present
+
+2024-04-08 00:30:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:05 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/account_login_button' is visible
+
+2024-04-08 00:30:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authorization Page/account_login_button'
+
+2024-04-08 00:30:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:07 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/login_input_email' is present
+
+2024-04-08 00:30:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:07 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/login_input_password' is present
+
+2024-04-08 00:30:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:07 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/login_input_email' is visible
+
+2024-04-08 00:30:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:07 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/login_input_password' is visible
+
+2024-04-08 00:30:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:08 - [MESSAGE][PASSED] - Text 'bb@mail.com' has been set to element 'Object Repository/Authorization Page/login_input_email'
+
+2024-04-08 00:30:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:10 - [MESSAGE][PASSED] - Text 'bb@mail.com' has been set to element 'Object Repository/Authorization Page/login_input_password'
+
+2024-04-08 00:30:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:10 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/login_login_button' is present
+
+2024-04-08 00:30:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:10 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/login_login_button' is visible
+
+2024-04-08 00:30:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authorization Page/login_login_button'
+
+2024-04-08 00:30:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:12 - [MESSAGE][PASSED] - Element 'Object Repository/Account/button_my_order' is present
+
+2024-04-08 00:30:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:13 - [MESSAGE][PASSED] - Element 'Object Repository/Account/button_log_out' is present
+
+2024-04-08 00:30:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:13 - [MESSAGE][PASSED] - Element 'Object Repository/Account/button_my_order' is visible
+
+2024-04-08 00:30:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:14 - [MESSAGE][PASSED] - Element 'Object Repository/Account/button_log_out' is visible
+
+2024-04-08 00:30:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:14 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_home' is present
+
+2024-04-08 00:30:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:14 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_home' is visible
+
+2024-04-08 00:30:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:14 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_notification' is present
+
+2024-04-08 00:30:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:15 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_notification' is visible
+
+2024-04-08 00:30:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home Page/btn_home'
+
+2024-04-08 00:30:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:17 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_elektronic_category' is present
+
+2024-04-08 00:30:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:17 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_computer_and_accessories_category' is present
+
+2024-04-08 00:30:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:18 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_elektronic_category' is visible
+
+2024-04-08 00:30:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:19 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_computer_and_accessories_category' is visible
+
+2024-04-08 00:30:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home Page/btn_elektronic_category'
+
+2024-04-08 00:30:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:22 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/text_category_elektronic_product1' is present
+
+2024-04-08 00:30:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:22 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/text_category_elektronic_product2' is present
+
+2024-04-08 00:30:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:23 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/text_category_elektronic_product1' is visible
+
+2024-04-08 00:30:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:23 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/text_category_elektronic_product2' is visible
+
+2024-04-08 00:30:23 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2024-04-08 00:30:23 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2024-04-08 00:30:23 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2024-04-08 00:30:37 - [MESSAGE][PASSED] - Started app at: 'C:\Users\mhani\Katalon Studio\K3 - Android Automation\Apk\app-debug.apk'
+
+2024-04-08 00:30:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:41 - [MESSAGE][PASSED] - Element 'Object Repository/Account/icon_account' is present
+
+2024-04-08 00:30:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:41 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_add_product' is present
+
+2024-04-08 00:30:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:42 - [MESSAGE][PASSED] - Element 'Object Repository/Account/icon_account' is visible
+
+2024-04-08 00:30:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:42 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_add_product' is visible
+
+2024-04-08 00:30:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Account/icon_account'
+
+2024-04-08 00:30:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:43 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/account_login_button' is present
+
+2024-04-08 00:30:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:43 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/account_login_button' is visible
+
+2024-04-08 00:30:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authorization Page/account_login_button'
+
+2024-04-08 00:30:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:45 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/login_input_email' is present
+
+2024-04-08 00:30:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:45 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/login_input_password' is present
+
+2024-04-08 00:30:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:46 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/login_input_email' is visible
+
+2024-04-08 00:30:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:46 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/login_input_password' is visible
+
+2024-04-08 00:30:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:47 - [MESSAGE][PASSED] - Text 'bb@mail.com' has been set to element 'Object Repository/Authorization Page/login_input_email'
+
+2024-04-08 00:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:49 - [MESSAGE][PASSED] - Text 'bb@mail.com' has been set to element 'Object Repository/Authorization Page/login_input_password'
+
+2024-04-08 00:30:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:49 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/login_login_button' is present
+
+2024-04-08 00:30:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:50 - [MESSAGE][PASSED] - Element 'Object Repository/Authorization Page/login_login_button' is visible
+
+2024-04-08 00:30:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Authorization Page/login_login_button'
+
+2024-04-08 00:30:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:52 - [MESSAGE][PASSED] - Element 'Object Repository/Account/button_my_order' is present
+
+2024-04-08 00:30:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:52 - [MESSAGE][PASSED] - Element 'Object Repository/Account/button_log_out' is present
+
+2024-04-08 00:30:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:53 - [MESSAGE][PASSED] - Element 'Object Repository/Account/button_my_order' is visible
+
+2024-04-08 00:30:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:53 - [MESSAGE][PASSED] - Element 'Object Repository/Account/button_log_out' is visible
+
+2024-04-08 00:30:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:53 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_home' is present
+
+2024-04-08 00:30:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:53 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_home' is visible
+
+2024-04-08 00:30:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:53 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_notification' is present
+
+2024-04-08 00:30:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:54 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_notification' is visible
+
+2024-04-08 00:30:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home Page/btn_home'
+
+2024-04-08 00:30:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:56 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_elektronic_category' is present
+
+2024-04-08 00:30:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:57 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_computer_and_accessories_category' is present
+
+2024-04-08 00:30:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:57 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_elektronic_category' is visible
+
+2024-04-08 00:30:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:58 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/btn_computer_and_accessories_category' is visible
+
+2024-04-08 00:30:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:30:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home Page/btn_computer_and_accessories_category'
+
+2024-04-08 00:30:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:31:02 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/text_computer_and_accessories_category_product1' is present
+
+2024-04-08 00:31:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:31:03 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/text_computer_and_accessories_category_product2' is present
+
+2024-04-08 00:31:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:31:03 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/text_computer_and_accessories_category_product1' is visible
+
+2024-04-08 00:31:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-04-08 00:31:03 - [MESSAGE][PASSED] - Element 'Object Repository/Home Page/text_computer_and_accessories_category_product2' is visible
+
+2024-04-08 00:31:03 - [MESSAGE][PASSED] - Run with 'Runner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-04-08 00:29:40 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Cucumber]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

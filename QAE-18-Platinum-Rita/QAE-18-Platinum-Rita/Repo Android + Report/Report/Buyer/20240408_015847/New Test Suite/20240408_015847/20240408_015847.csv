@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,08-04-2024 01:59:03,08-04-2024 02:06:43,"7m - 40,249s",PASSED
+,,,,,,,
+Test Cases/Cucumber,,,,08-04-2024 01:59:06,08-04-2024 02:06:43,"7m - 37,877s",PASSED
+Start listener action : beforeTestCase,,,,08-04-2024 01:59:07,08-04-2024 01:59:08,"0,712s",ERROR
+runWithCucumberRunner(Runner),,,,08-04-2024 01:59:09,08-04-2024 02:06:43,"7m - 34,410s",PASSED

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>description_text</name>
+   <tag></tag>
+   <elementGuidId>375b9a02-d3b2-43f1-a216-b7aba9994f2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h5.card-title.fs-6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Solo'])[1]/following::h5[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>59f4afc8-e17b-4f6a-a656-8c1583265585</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title fs-6</value>
+      <webElementGuid>2cb697c5-9a83-45bf-a030-6242f4467299</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Deskripsi</value>
+      <webElementGuid>8e61db4f-13fb-4751-97e2-ef8387fe57db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-8&quot;]/div[@class=&quot;card mt-5 p-2 border border-4 border-light rounded-4&quot;]/div[@class=&quot;card-body&quot;]/h5[@class=&quot;card-title fs-6&quot;]</value>
+      <webElementGuid>845132ca-48e8-42a3-9206-2c9216210c88</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solo'])[1]/following::h5[1]</value>
+      <webElementGuid>083f739a-9922-43fe-bc1e-1552090a6fb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Balap Super'])[1]/preceding::h5[1]</value>
+      <webElementGuid>a2542f1f-36fb-4832-8116-79707a9403ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya tertarik dan ingin nego'])[1]/preceding::h5[2]</value>
+      <webElementGuid>2faa8277-9fd1-4d19-8b73-0711e6063334</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Deskripsi']/parent::*</value>
+      <webElementGuid>295c2563-2888-4969-96c9-06991d843390</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h5</value>
+      <webElementGuid>aa9979db-2389-481f-a36d-902cf10cafee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'Deskripsi' or . = 'Deskripsi')]</value>
+      <webElementGuid>82c78ff7-809c-4b40-ba35-005ebd4aa358</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

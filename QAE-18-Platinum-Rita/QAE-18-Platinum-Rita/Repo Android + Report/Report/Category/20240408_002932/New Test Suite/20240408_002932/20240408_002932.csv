@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,Mobile Automation Test Suite,,2024-04-08 00:29:40,2024-04-08 00:31:03,1m - 23.172s,PASSED
+,,,,,,,
+Test Cases/Cucumber,,,,2024-04-08 00:29:40,2024-04-08 00:31:03,1m - 22.963s,PASSED
+Start listener action : beforeTestCase,,,,2024-04-08 00:29:40,2024-04-08 00:29:41,0.043s,ERROR
+runWithCucumberRunner(Runner),,,,2024-04-08 00:29:41,2024-04-08 00:31:03,1m - 22.607s,PASSED
