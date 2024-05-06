@@ -2,15 +2,14 @@ Feature: Authorization
 
     Scenario Outline: <case_id>-User login with valid credentials
         Given user already at login page
-        When  user input <fieldS> field with <value>
-        Then  user successfully to login
+        When  user input <fieldS> with <value> credentials
+        Then  user <get> to login
         Examples:
-            | case_id | fields | VALUE               |
-            | TCLOG01 | all    | service account     |
-            | TCLOG02 | all    | invalid credentials |
+            | case_id | fields     | value           | get          |
+            | TCLOG01 | all fields | service account | successfully |
+            | TCLOG02 | all fields | invalid         | failed       |
 
-    @positive
     Scenario: TCLOG03-User want to logout
         Given user already to login
-        When  user select three lines icon at product page
+        When  user select menu icon at products page
         Then  user successfully logout
