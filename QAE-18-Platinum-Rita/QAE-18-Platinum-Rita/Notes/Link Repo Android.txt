@@ -1,3 +1,0 @@
-Link Repo
-Android :
-https://gitlab.com/mhnfh/qae23001065_18_k3_android_automation_platinum
